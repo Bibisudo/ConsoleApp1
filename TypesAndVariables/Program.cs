@@ -7,6 +7,7 @@ namespace TypesAndVariables
         static void Main(string[] args)
         {
 
+            bool condition = false;
             byte number4 = 255;
             short number3 = 32767;
             int number1 = 10;
