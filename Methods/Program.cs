@@ -24,6 +24,7 @@
             var result = number1 + number2;
             return result;
         }
+        //Reften farkı int number1;'e değer atamak zorunda olmadan çalışabilmesi ancak outlarda aşağıda metodun içinde değerin bir kere set edilmesi gerekiyor. number1 = 30; gibi.
         static int Add3(out int number1,int number2)
         {
           number1 = 30;
