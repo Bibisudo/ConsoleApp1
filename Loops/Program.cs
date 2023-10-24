@@ -18,13 +18,21 @@
             //}
             //Console.WriteLine("Finished!");
 
-            int number = 100;
-            while (number>=0)
+            //int number = 100;
+            //while (number>=0)
+            //{
+            //    Console.WriteLine(number);
+            //    number--;
+            //}
+            //Console.WriteLine("Now number is {0}", number);
+
+            int number = 10;
+            do
             {
                 Console.WriteLine(number);
                 number--;
-            }
-            Console.WriteLine("Now number is {0}", number);
+
+            } while (number >= 0);
             Console.ReadLine();
         } 
     }
