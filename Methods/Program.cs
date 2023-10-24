@@ -15,6 +15,7 @@ namespace Methods
             //Console.WriteLine(result2);
             //Console.WriteLine(number1);
             Console.WriteLine(Multiply(2, 4, 5));
+            Console.WriteLine(Add4(1,2,3,4,5,6));
             Console.ReadLine();
         }
         static void Add()
@@ -38,6 +39,11 @@ namespace Methods
         static int Multiply (int number1, int number2, int number3) 
         {
             return number1 * number2 * number3;
+        }
+
+        static int Add4(params int[] numbers)
+        {
+            return numbers.Sum();
         }
     }
 }
