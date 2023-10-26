@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj", "{76925661-E953-4C28-8E85-F57148A4BDAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{F1821EAE-6BCD-45A4-B6B0-56C145794B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{F1821EAE-6BCD-45A4-B6B0-56C145794B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{D14836DC-A463-4D91-8A30-14F544C96291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{D14836DC-A463-4D91-8A30-14F544C96291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lottery2", "Lottery2\Lottery2.csproj", "{EF258318-CFCB-48EB-B0A1-42C21C94AE7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D14836DC-A463-4D91-8A30-14F544C96291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14836DC-A463-4D91-8A30-14F544C96291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14836DC-A463-4D91-8A30-14F544C96291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF258318-CFCB-48EB-B0A1-42C21C94AE7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF258318-CFCB-48EB-B0A1-42C21C94AE7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF258318-CFCB-48EB-B0A1-42C21C94AE7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF258318-CFCB-48EB-B0A1-42C21C94AE7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
