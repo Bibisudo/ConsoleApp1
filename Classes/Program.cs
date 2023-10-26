@@ -22,7 +22,7 @@
 
          Customer customer2 = new Customer
             {
-              Id = 2, City= "İstanbul", FirstName = "Batuhan", LastName = "Caylak"
+              Id = 2, City= "İstanbul",FirstName = "Batuhan",LastName = "Caylak"
             };
 
             Console.WriteLine(customer2.FirstName);
